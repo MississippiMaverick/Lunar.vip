@@ -16,7 +16,7 @@ Enjoy skidding this terrific code from april btw
 fixed target aim blah blah
 ]]
 
-
+print("Script Loaded, If it doesent work then its patched!")
 if not LPH_OBFUSCATED then
     getfenv().LPH_NO_VIRTUALIZE = function(...) return (...) end;
 end
